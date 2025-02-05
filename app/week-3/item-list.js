@@ -78,7 +78,7 @@ const items = [item1, item2, item3, item4, item5, item6, item7, item8, item9, it
 
 
   return (
-    <ul className="space-y-4">
+    <ul className="space-y-4 spacex-4">
       {items.map((item, index) => (
         <Item key={index} {...item} />
       ))}
