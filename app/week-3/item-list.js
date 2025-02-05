@@ -1,5 +1,7 @@
 import Item from "./item";
 
+export default function ItemList() {
+
 const item1 = {
   name: "milk, 4 L 🥛",
   quantity: 1,
@@ -74,7 +76,7 @@ const item12 = {
 
 const items = [item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12];
 
-export default function ItemList() {
+
   return (
     <ul className="space-y-4">
       {items.map((item, index) => (

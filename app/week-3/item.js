@@ -1,8 +1,8 @@
 export default function Item({ name, quantity, category }) {
   return (
-    <li className="bg-gray-800 p-4 rounded-lg shadow-md text-white">
+    <li className="bg-gray-800 p-3 shadow-md text-white width-">
       <p className="font-bold text-lg">{name}</p>
-      <p className="text-gray-300">Buy {quantity} in {category}</p>
+      <p className="text-white">Buy {quantity} in {category}</p>
     </li>
   );
 }
