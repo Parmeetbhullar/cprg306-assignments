@@ -31,7 +31,7 @@ export default function NewItem({ onAddItem }) {
     };
 
     return (
-        <div className="max-w-md mx-auto bg-[#141b26] shadow-md rounded-lg text-white p-2">
+        <div className="max-w-md bg-[#19212f] shadow-md rounded-lg text-white p-2">
             <form onSubmit={handleSubmit} className="space-y-4 bg-[#0f172a] p-2 rounded-lg shadow-lg">
                 <div>
                     <input 

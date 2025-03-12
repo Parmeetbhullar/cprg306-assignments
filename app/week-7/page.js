@@ -13,7 +13,7 @@ export default function Page() {
   }
 
   return (
-    <main className="p-5 bg-gray-900 min-h-screen text-white">
+    <main className="p-7 bg-gray-900 min-h-screen text-white">
       <h1 className="text-3xl font-bold mb-4">Shopping List</h1>
       <NewItem onAddItem={handleAddItem} />
       <ItemList items={items} />

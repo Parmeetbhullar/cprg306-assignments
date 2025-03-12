@@ -13,7 +13,7 @@ export default function ItemList({ items }) {
   });
 
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
+    <div className="p-2 bg-gray-900 text-white min-h-screen">
       <div className="mb-4 flex items-center gap-2">
         <span className="text-2xl font-bold">Sort by:</span>
         <button onClick={() => setSortBy("name")} className={`${sortBy === "name" ? "bg-orange-500" : "bg-orange-800"} text-white px-4 py-2 rounded`}>Name</button>
